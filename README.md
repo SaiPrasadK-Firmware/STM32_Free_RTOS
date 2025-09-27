@@ -3,13 +3,6 @@ STM32 FreeRTOS  projects  showcasing task creation, synchronization (semaphores,
 
 ---
 
-# STM32 FreeRTOS Mastery 🚀
-
-Real-world STM32 FreeRTOS projects to master embedded multitasking.
-
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/STM32-FreeRTOS)
-![GitHub license](https://img.shields.io/github/license/yourusername/STM32-FreeRTOS)
-![Issues](https://img.shields.io/github/issues/yourusername/STM32-FreeRTOS)
 
 ---
 
@@ -132,6 +125,5 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 ---
 
 ## Contact
+sai0404@outlook.in
 
-Your Name — [[your.email@example.com](mailto:your.email@example.com)]
-GitHub: [https://github.com/yourusername](https://github.com/yourusername)
