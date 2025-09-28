@@ -1,0 +1,4 @@
+../Core/Src/bmp280.c:6:16:BMP280_ReadReg	1
+../Core/Src/bmp280.c:10:16:BMP280_WriteReg	1
+../Core/Src/bmp280.c:14:6:BMP280_Init	1
+../Core/Src/bmp280.c:20:15:BMP280_Read	1

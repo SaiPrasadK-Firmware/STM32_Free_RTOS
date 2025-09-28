@@ -1,0 +1,10 @@
+18:40:47 **** Incremental Build of configuration Debug for project counter_with_mutex ****
+make -j12 all 
+arm-none-eabi-size  counter_with_mutex.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25064	     96	  20760	  45920	   b360	counter_with_mutex.elf
+Finished building: default.size.stdout
+ 
+
+18:40:47 Build Finished. 0 errors, 0 warnings. (took 587ms)
+

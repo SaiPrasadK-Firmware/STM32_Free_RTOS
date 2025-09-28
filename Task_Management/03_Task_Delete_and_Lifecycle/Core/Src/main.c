@@ -108,7 +108,7 @@ void LED_Task1(void *argument)
   }
 }
 
-/* === Task2: Slow blink === */
+
 void LED_Task2(void *argument)
 {
   for(;;)

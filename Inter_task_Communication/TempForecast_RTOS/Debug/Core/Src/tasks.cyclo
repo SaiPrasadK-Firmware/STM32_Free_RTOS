@@ -1,0 +1,2 @@
+../Core/Src/tasks.c:6:6:Task_BMP280	1
+../Core/Src/tasks.c:22:6:Task_LCD	2
