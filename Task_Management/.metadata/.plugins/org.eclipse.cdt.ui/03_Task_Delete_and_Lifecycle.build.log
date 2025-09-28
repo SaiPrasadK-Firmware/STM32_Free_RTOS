@@ -1,17 +1,10 @@
-16:46:34 **** Incremental Build of configuration Debug for project 03_Task_Delete_and_Lifecycle ****
+21:28:28 **** Incremental Build of configuration Debug for project 03_Task_Delete_and_Lifecycle ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "03_Task_Delete_and_Lifecycle.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Sai\Desktop\Free_Rtos_stm32\Task_Management\03_Task_Delete_and_Lifecycle\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="03_Task_Delete_and_Lifecycle.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 03_Task_Delete_and_Lifecycle.elf
- 
 arm-none-eabi-size  03_Task_Delete_and_Lifecycle.elf 
-arm-none-eabi-objdump -h -S 03_Task_Delete_and_Lifecycle.elf  > "03_Task_Delete_and_Lifecycle.list"
    text	   data	    bss	    dec	    hex	filename
   17752	     16	  20352	  38120	   94e8	03_Task_Delete_and_Lifecycle.elf
 Finished building: default.size.stdout
  
-Finished building: 03_Task_Delete_and_Lifecycle.list
- 
 
-16:46:42 Build Finished. 0 errors, 0 warnings. (took 7s.377ms)
+21:28:29 Build Finished. 0 errors, 0 warnings. (took 627ms)
 

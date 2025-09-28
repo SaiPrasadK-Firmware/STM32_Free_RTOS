@@ -1,0 +1,2 @@
+../Core/Src/tasks.c:6:6:Task_BMP280	24	static
+../Core/Src/tasks.c:22:6:Task_LCD	56	static

@@ -1,0 +1,36 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+/* Includes ------------------------------------------------------------------*/
+#include "stm32f4xx_hal.h"
+#include "cmsis_os2.h"
+#include <stdio.h>
+#include <string.h>
+
+/* Exported types ------------------------------------------------------------*/
+typedef struct {
+    float temperature;
+    float pressure;
+} BMP280_Data_t;
+
+/* Exported constants --------------------------------------------------------*/
+#define QUEUE_SIZE 5
+
+/* Exported macro ------------------------------------------------------------*/
+
+/* Exported variables --------------------------------------------------------*/
+extern UART_HandleTypeDef huart2;
+
+/* FreeRTOS Handles */
+extern osThreadId_t Task_BMP280Handle;
+extern osThreadId_t Task_LCDHandle;
+extern osMessageQueueId_t bmpQueueHandle;
+extern osMutexId_t i2cMutexHandle;
+
+/* Exported functions --------------------------------------------------------*/
+void Error_Handler(void);
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+static void MX_USART2_UART_Init(void);
+
+#endif /* MAIN_H */
